@@ -27,14 +27,15 @@ function lowerCase(string) {
 function reducer(input, action) {
 	switch (action) {
 		case "upperCase" :
-		return upperCase(string)
+		return upperCase(input)
 		break
 		case "capitalize" :
-		return capitalize(string)
+		return capitalize(input)
 		break
 		case "lowerCase" :
-		return lowerCase(string)
+		return lowerCase(input)
 		break
 	}
+
 }
 module.exports = reducer;
